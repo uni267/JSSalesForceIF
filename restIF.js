@@ -1,7 +1,7 @@
 function sf_rest_getData(orderCode,sf_rest_token){
 
 		var result = $.ajax({
-		url: sf_rest_token.instance_url+"+orderCode,
+		url: sf_rest_token.instance_url+orderCode,
 		type:"GET",
 		async: false,
 		 headers: {
